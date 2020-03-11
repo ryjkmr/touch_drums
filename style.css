@@ -1,0 +1,64 @@
+* {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+}
+
+
+html, body {
+  font-family: sans-serif;
+  touch-action: manipulation;
+  height: 100%;
+}
+
+.links{
+  display: inline-block;
+  text-align: center;
+  background-color: red;
+  color: aliceblue;
+  width: 30%;
+  height: 90%;
+  font-size: large;
+}
+
+#cha {
+  float: left;
+  display: inline-block;
+  text-align: center;
+  background-color: blue;
+  color: aliceblue;
+  width: 49%;
+  height: 90%;
+}
+
+.touched {
+  opacity: 0.5;
+}
+
+.stack {
+  display: inline-block;
+  text-align: center;
+  width: 99%;
+  height: 50%;
+}
+
+#open{
+  background-color: gold;
+}
+#mute{
+  background-color: red;
+}
+#enu {
+  display: inline-block;
+  text-align: center;
+  color: aliceblue;
+  width: 49%;
+  height: 90%;
+}
+
+.solo{
+  height: 100%
+}

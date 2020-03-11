@@ -1,0 +1,43 @@
+* {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+}
+
+
+html, body {
+  font-family: sans-serif;
+  touch-action: manipulation;
+  height: 100%;
+}
+
+a{
+  color: white;
+}
+
+.links{
+  display: inline-block;
+  text-align: center;
+  background-color: red;
+  width: 30%;
+  height: 90%;
+  font-size: xx-large;
+}
+
+.to_okonkoro {
+  background-color: blue;
+}
+
+.to_itotore{
+  background-color: gold;
+}
+.to_iya{
+  background-color: red;
+}
+
+.touched {
+  opacity: 0.5;
+}
